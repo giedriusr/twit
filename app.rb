@@ -9,8 +9,7 @@ loop do
   say('0 - to close the application')
   ('> ').display
 
-  input = gets.chomp
-  command, *params = input.split /\s/
+  command = gets.chomp[0]
 
   case command
   when '1'
