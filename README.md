@@ -1,0 +1,1 @@
+Awesome CLI App which returns tweets by mentioned user.
