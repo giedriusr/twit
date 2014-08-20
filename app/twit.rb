@@ -39,7 +39,7 @@ class Twit
   end
 
   def load_more_tweets?
-    agree('Would you like to load more tweets? (type "y" or "n"):')
+    agree('Would you like to load more tweets? (type "yes" or "no"):')
     puts 'Coming soon..'
   end
 
