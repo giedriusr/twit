@@ -13,6 +13,7 @@ class Twit
       when '1'
         @username = ask('Enter username: ')
         load_tweets
+        load_more_tweets?
       when '0'
         end_program
       else
@@ -35,6 +36,11 @@ class Twit
     end
 
     footer_of_results
+  end
+
+  def load_more_tweets?
+    agree('Would you like to load more tweets? (type "y" or "n"):')
+    puts 'Coming soon..'
   end
 
   def header_of_results
